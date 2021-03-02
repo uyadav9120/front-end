@@ -1,0 +1,8 @@
+steps:
+  # build the container image
+- name: "gcr.io/cloud-builders/docker"
+  args: ["build", "-t", "gcr.io/foundry-anthem/front-end-poc:v1", "."]
+  # push container image
+- name: "gcr.io/cloud-builders/docker"
+  args: ["push", "gcr.io/foundry-anthem/front-end-poc:v1"]
+  # deploy container image to GKE
