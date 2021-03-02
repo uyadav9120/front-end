@@ -12,6 +12,6 @@ steps:
   args:
   - run
   - --filename=frontend.yaml
-  - --image=foundry-anthem/front-end-poc:v2
+  - --image=gcr.io/foundry-anthem/front-end-poc:v2
   - --location=us-east1
   - --cluster=gke-poc-front-end-cluster
