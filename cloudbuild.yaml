@@ -6,7 +6,6 @@ steps:
 - name: "gcr.io/cloud-builders/docker"
   args: ["push", "gcr.io/foundry-anthem/front-end-poc:v2"]
   # deploy container image to GKE
-  steps:
   # build the container image
   # deploy container image to GKE
 - name: "gcr.io/cloud-builders/gke-deploy"
