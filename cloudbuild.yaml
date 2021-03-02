@@ -15,3 +15,5 @@ steps:
   - --image=gcr.io/foundry-anthem/front-end-poc:v2
   - --location=us-east1
   - --cluster=gke-poc-front-end-cluster
+images:
+  - 'gcr.io/foundry-anthem/front-end-poc:v2'
